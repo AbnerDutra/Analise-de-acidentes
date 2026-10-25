@@ -1,0 +1,12 @@
+#comecar com este comando no terminal para instalar as dependencias.
+#python -m pip install -r requeriments.txt
+# Framework para definir endpoints e construir a API HTTP.
+fastapi>=0.115,<1.0
+# Servidor ASGI usado para iniciar e servir a aplicação FastAPI.
+uvicorn[standard]>=0.34,<1.0
+# Validação e serialização dos dados de entrada e saída da API.
+pydantic>=2.10,<3.0
+# ORM usado para mapear modelos e consultar o banco de dados.
+SQLAlchemy>=2.0,<3.0
+# Driver PostgreSQL usado pelo SQLAlchemy para conectar ao banco.
+psycopg[binary]>=3.2,<4.0
